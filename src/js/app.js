@@ -1,6 +1,9 @@
-// TODO: write your code here
-import sum from './basic';
+import { sortHeroes } from './heroesSort';
 
-console.log('worked');
+export const heroes = [
+  {name: 'мечник', health: 10},
+  {name: 'маг', health: 100},
+  {name: 'лучник', health: 80},
+]
 
-console.log(sum([1, 2]));
+console.log(sortHeroes(heroes));
